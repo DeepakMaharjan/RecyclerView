@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         CarsAdapter carsAdapter = new CarsAdapter(this, carsList);
         recyclerView.setAdapter(carsAdapter);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL, false));
+        recyclerView.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.VERTICAL, false));
 
     }
 }

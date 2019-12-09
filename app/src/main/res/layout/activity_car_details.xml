@@ -8,12 +8,11 @@
     android:gravity="center"
     tools:context=".CarDetails">
 
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/imgCars"
         android:layout_gravity="center"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:scaleType="fitXY"
         android:src="@drawable/bmw"/>
 
     <TextView

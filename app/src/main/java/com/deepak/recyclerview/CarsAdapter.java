@@ -14,6 +14,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
+import de.hdodenhof.circleimageview.CircleImageView;
+
 public class CarsAdapter extends RecyclerView.Adapter<CarsAdapter.CarsViewHolders> {
 
 
@@ -62,7 +64,7 @@ public class CarsAdapter extends RecyclerView.Adapter<CarsAdapter.CarsViewHolder
 
     public class CarsViewHolders extends RecyclerView.ViewHolder{
 
-        ImageView imgProfile;
+        CircleImageView imgProfile;
         TextView tvName, tvBrand;
 
         public CarsViewHolders(@NonNull View itemView) {
